@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio1.css">
+    <script src="https://kit.fontawesome.com/358f99ca7d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header" >
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="topnav" id="myTopnav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">My Skills</a>
+            <a href="#portfolio">My Works</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+        <div class="container">
+            <div class="container2" onclick="myFunction(this);MyFunction();">
+                <div id="bar1" class="menu"></div>
+                <div id="bar2" class="menu"></div>
+                <div id="bar3" class="menu"></div>
+            </div>
+            <div class="topnav2" id="myTopnav2">
+                <div><a href="#home">Home</a></div><hr>
+                <div><a href="#about">About</a></div><hr>
+                <div><a href="#skill">My Skills</a></div><hr>
+                <div><a href="#portfolio">My Works</a></div><hr>
+                <div><a href="#certification">Certifications</a></div><hr>
+                <div><a href="#contact">Contact me</a></div>
+            </div>
+        </div>
+    </header>
+    <div class="row" id="home">
+        <div class="container3">
+            <div class="greeting">
+                Hello, <span class="greet2">It's Me</span>
+            </div>
+            <div class="name">
+                Rhythm Jain
+            </div>
+            <div class="designation">I am a <span class="text">Web Developer</span></div>
+            <div class="content1">
+                I am a Web Designer who is interested in exploring the world of internet 
+                and who wants to cross the limit of internet and how far can I go in Web Development.
+                I am always ready to collaborate with people on different projects to enhance and
+                sharpen my skills.
+            </div>
+            <button class="button"><span>More About me</span></button>
+        </div>
+        <div class="img">
+            <img class="image1" src="photo.jpg" alt="photo">
+        </div>
+    </div>
+    <div class="about" >
+        <div class="heading" id="about">About <span class="text2">me</span></div>
+        <p class="paragraph">Hi this is Rhythm Jain, A girl who started coding in her early 15's. 
+            She is highly intrested in seeking opportunity with great exposure and new challenges.
+             Currently I am fluent in Java along with great algorithmic approach.
+            I am fluent in Python, C++ and C.  Alongside I usually try my hands on frontend development.
+            I know about HTML ,CSS and Javascript. Currently I am pursuing B.Tech Cse from Lovely Professional
+            University . I am very much active in extra curricular activities. I had participated in
+         dance and sports.I am resilient in nature and have extrovert personality. I am a person with good communication
+        and leadership skills. </p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="experience">
+            <ul>
+                    <li><span> November,2021-March2023</span><br>Core techninal member at Depatment of Student Organization, LPU</li>
+                    <li><span>May,2022- December2022</span><br>Campus Ambassador at Verzeo technology</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2021-2025</span><br>B.Tech CSE from LPU, Punjab</li>
+                <li><span>2019-2021</span><br>Intermidiate PCM</li>
+            </ul>
+        </div>
+    
+    </div>
+    <div class="skills " id="skill">
+        <div class="skill1">
+            <div class="heading2">My <span class="text3">Skills</span></div>
+            <div class="skill2">
+                <div><i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        We provide best service in design and user-friendly web environment in the web application. As I have designed n numbers of websites prior.
+                    </p>
+                    <a href="#"> Learn more</a></div>
+                <div><i class="fa-solid fa-crop"></i>
+                    <h2>UI/Ux Design</h2>
+                    <p>
+                        Provide best service in design and user-friendly web environment in the web application. As I have designed n numbers of websites prior.
+                    </p>
+                    <a href="#"> Learn more</a></div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        Provide best service in design and user-friendly app environment in the app application. As I have designed n numbers of websites prior.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container4">
+            <h1>My <span class="text4">Works</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="webdesignimage.png">
+                    <div class="layer">
+                        <h3>Income Tax website</h3>
+                        <p> This website holds facilities to including submiting tax yearly to checking their e-pan status.
+                            Can be used for small firms for their salary disbursement.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="appdesignimage.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p> This app connnects around awesome people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="uiuxdesignimage.png">
+                    <div class="layer">
+                    <h3>Music App</h3>
+                    <p> This app enables the user to get accessed to high quality music listning both online and offline.
+                    Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more </a>
+        </div>
+    </div>
+
+    <div class="certifications" id="certifications">
+        <div class="container5">
+            <h1>Certifications</h1>
+            <div class="certifications1">
+                <div class="certifications2">
+                    <div class="c1">
+                        <a class="icon1"><i class="fa-brands fa-python"></i></a>
+                        <h3>Python</h3>
+                        <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.Here, is link to Python Certificate</p>
+                        <a class="icon2" href="https://drive.google.com/file/d/1Jpvk5S2EWv9KtzVHlduiyTeZZxN10802/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="certifications2">
+                    <div class="c1">
+                        <a class="icon1"><i class="fa-solid fa-code" ></i></a>
+                        <h3>DSA</h3>
+                        <p>DSA are the foundational stones and pillars of Computer Sciences. They are the building blocks in all disciplines of software development.Here, is link to DSA Certificate</p>
+                        <a class="icon2" href="https://drive.google.com/file/d/1ThSQ2_9uGh1qjXiVf_wHnCb0wqp8xSK4/view?usp=drive_link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="certifications2">
+                    <div class="c1">
+                        <a class="icon1"><i class="fa fa-desktop" aria-hidden="true"></i></a>
+                        <h3>Computer Architecture</h3>
+                        <p>Computer architecture is a description of the structure of a computer system made from component parts.
+                            Here, is link to Computer architecture Certificate</p>
+                        <a class="icon2" href="https://drive.google.com/file/d/13_MfZ4sXV05MSbODcAX7jZTQEam_h7V7/view?usp=drive_link" target="_blank">
+                            <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="certifications2">
+                    <div class="c1">
+                        <a  class="icon1"><i class="fa-solid fa-laptop-code"></i></a>
+                        <h3>Frontend Web Development</h3>
+                        <p>Frontend Web development is the building and maintenance of websites interface.
+                            Here, is link to Frontend Web Development Certificate</p>
+                        <a class="icon2" href="https://drive.google.com/file/d/1MVU3O33aePwrmtMy_72rHKqLTW0-Ic_p/view?usp=drive_link" target="_blank">
+                            <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="certifications2">
+                    <div class="c1">
+                        <a class="icon1"><i class="fa-solid fa-network-wired"></i></a>
+                        <h3>Computer Networks</h3>
+                        <p>A computer network is a set of computers sharing resources located on or provided by network nodes. Here, is link to Computer Networks Certificate</p>
+                        <a class="icon2" href="https://drive.google.com/file/d/1MVU3O33aePwrmtMy_72rHKqLTW0-Ic_p/view?usp=drive_link" target="_blank">
+                            <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="certifications2">
+                    <div class="c1">
+                        <a  class="icon1"><i class="fa-solid fa-code"></i></a>
+                        <h3>Howgwart's Invisibilityy cloak</h3>
+                        <p>Here, is link to the Certificate</p>
+                        <a class="icon2 " href="https://drive.google.com/file/d/1uHSOEYE26tL89dKm-k_yW82URmwL7TA4/view?usp=drive_link" target="_blank">
+                            <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container6">
+            <div class="row2">
+                <div class="contact-left">
+                    <h1 class="sub-title3">Contact <span class="text5">Me</span></h1>
+                    <div class="emailid">
+                        <p><i class="fa-solid fa-paper-plane"></i>
+                            rhythmjain9290@gmail.com
+                        </p>
+                        <p><i class="fa-solid fa-phone"></i>
+                            7505547969
+                        </p>
+                    </div>
+                   
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/RhythmJain78162"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/rj_rhythmjain?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rhythm-jain-631703220"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="cv.pdf" download class="btn btn2" id="btn">Download CV</a>
+                </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet"> 
+                            <input type="text" name="Name" placeholder="Your Name"required>
+                            <input type="email" name="Email" placeholder="Your Email"required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+      
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="copyright">
+                <p>Copyright by <span class="name1">Rhythm</span></p>
+                </div>
+      </div>
+    <script>function myFunction(x) {
+        x.classList.toggle("change");
+      }
+      function MyFunction(){
+        var y= document.getElementById("myTopnav2");
+        if(y.className ==  "topnav2"){
+            y.className += "responsive";
+        }
+        else{
+            y.className = "topnav2";
+        }
+      }
+      </script>
+      <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbxOKIG3BtUOuEd2EXc2dnnhz97-Rafh9AU3GxNgM-VMGABcANA4z3YQNH6lHbRRIz0/exec"
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },2000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
